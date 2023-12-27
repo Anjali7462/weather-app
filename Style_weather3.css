@@ -142,7 +142,7 @@
     padding: 0.3rem;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .divB2_1b{
@@ -308,6 +308,22 @@
 #Lat{
     display: none;
 }
+
+
+@media only screen and (max-width: 1188px) {
+    .maindiv {
+      /* background-color: lightblue; */
+      display: block;
+    }
+
+    .divA{
+        width: 85%;
+    }
+
+    .divB{
+        width: 85%;
+    }
+  }
 
 
 
