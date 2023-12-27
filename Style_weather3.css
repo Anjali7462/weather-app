@@ -1,0 +1,318 @@
+.maindiv{
+    display: flex;
+    padding: 0rem;
+    /* margin: 2rem; */
+}
+
+.outerdiv{
+    width: 50%;
+    height: 100vh;
+    background-image: url('background images/HelloWinter2LowT.png');
+    background-size: cover; 
+    margin: 0.1rem; 
+    background-color: rgb(0, 0, 0);   
+    /* background-color: rgb(126, 124, 124);    */
+
+    /* color: white;  */
+}
+
+.divA{
+   
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(17, 17, 17);     */
+    /* background-color: rgb(36, 36, 36);    */
+
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+/* Search 1 */
+.searchBar{
+    /* padding: 0.2rem;
+    margin: 0.1rem; */
+    height: 15%;
+}
+
+.divA0{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    text-align: center;
+}
+
+.divA1{
+    width: 13rem;
+    height:18rem;
+    /* border: solid; */
+    /* background-image: url('background images/love\ 2.png'); */
+    background-size: cover;
+    /* background-color: rgb(114, 119, 125); */
+    /* color: rgb(161, 13, 55); */
+    /* color: rgb(88, 25, 43); */
+    /* color: rgb(53, 15, 26); */
+    color: rgb(250, 251, 252);
+    text-align: center; 
+    padding: 0.1rem; 
+    /* color: white;  */
+    border-color: rgb(114, 158, 215);
+}
+
+.divA2{
+    display: flex;
+    width:100%;
+    height: 50%;
+    overflow: scroll;
+    align-items: end;
+    color: white;
+    
+    /* justify-content: last baseline; */
+    /* transform: translateY(300px);    */
+}
+
+.divA2_0{
+    border: solid;
+    /* display: block; */
+    /* display: inline; */
+    padding: 0% 1%;
+    width: 140px;
+    height:30vh;
+    font-size: 1.2rem;
+    text-align: center;
+    /* border-color: rgb(156, 145, 132); */
+    background-color: rgb(156, 145, 133);
+    /* background-color: #a9dbb4 ; */
+    margin: 1rem;
+    /* overflow-wrap: break-word; */
+    /* overflow-y: scroll; */
+    /* filter: blur(50%);   */
+    /* filter: opacity(50%); */
+    /* opacity: 0.5; */
+    color: black;
+    filter: opacity(70%);
+    /* color: rgb(50, 14, 24); */
+}
+
+.divB{
+    justify-content: space-between;
+    padding:0.5rem;
+    color: white;
+    /* background-color: rgb(36, 36, 36); */
+}
+
+.divB0{
+    text-align: center;
+    font-size: 1.5rem;
+    height: 20%;
+    /* color: black; */
+}
+
+.divB1{
+    width: 95%;
+    height: 35%;
+    border: solid;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.divB2{
+    width: 100%;
+    height: 35%;
+    display: flex;  
+}
+
+.divB2_1{
+    border:solid;
+    width: 50%;
+    height: 100%;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+
+.divB2_1a{
+    border: solid;
+    height: 41%;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.divB2_1b{
+    border: solid;
+    height: 41%;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divB2_2{
+    border: solid;
+    width: 50%;
+    height: 100%;
+    margin: 0.5rem;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Wind2{
+    width: 25%;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    /* border: solid; */
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+.SetRise2{
+     /* padding: 0.5rem; */
+    /* border: solid; */
+    padding: 0rem; 
+    margin: 0rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+.today{
+    font-size: 1.6rem;
+    /* padding: 0px; */
+    margin: 1rem;
+    font-weight: 550;
+}
+
+
+
+.reduce{
+    margin: 0.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#temp{
+    font-size: 3.8rem;
+    
+}
+
+.head1{
+    margin: 0;
+    /* color: rgb(54, 55, 66); */
+    
+}
+
+#time{
+    margin: 0;
+}
+
+#day{
+    margin: 0;
+}
+
+#MAXT1,#MAXT2,#MAXT3,#MAXT4,#MAXT5,#MAXT6,#MAXT7{
+    font-size: 1.3rem;
+    
+}
+
+#MINT1,#MINT2,#MINT3,#MINT4,#MINT5,#MINT6,#MINT7{
+    font-size: 1.3rem;
+   
+}
+
+#day1,#day2,#day3,#day4,#day5,#day6,#day7{
+    font-size: 1.5rem;
+    
+}
+
+.ForecastHead{
+    display: flex;
+}
+
+/*  1. search-div   */
+
+.searchbox {
+    position: relative;
+    /* margin: 2%; */
+    /* padding: 1% 2% 1% 2%; */
+    padding: 1% 1% 1% 1%;
+    background-color: white;
+    border-radius: 50vh;
+    height: 4vh;
+    width: 30px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    /* background-color: rgb(19, 18, 18); */
+    background-color: rgb(92, 93, 89);
+    transition: 0.4s ease-in-out;
+  }
+
+  .searchbox:hover{
+    width: 250px;
+    background-color: rgb(176, 178, 167);
+    /* text-align: left; */
+
+  }
+
+  .search-text {
+    position: absolute;
+    top: 50%;
+    /* right: 5px; */
+    left: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+.search-text input{
+    text-align: right;
+    font-size: 1.2rem;
+    /* display: none; */
+    /* padding: 2px; */
+    padding: 1% 1% 1% 1%;
+    width: 38px;
+    height: 4.5vh;
+    outline: none;
+    border: none;
+    background: transparent;
+    transition: 0.4s;
+    opacity: 0;
+}
+    
+.searchbox input:hover{
+    width: 240px;
+    display: block;
+    opacity: 1;
+}
+
+.searchtext{
+    color: rgb(111, 110, 108);
+}
+
+#Long{
+    display: none;
+}
+
+#Lat{
+    display: none;
+}
+
+
+
+
+
+
+
+
