@@ -205,7 +205,7 @@ async function getDataHourly(latitude3,longitude3) {
       "10:00",
       "11:00",
       "12:00",
-      "13:0",
+      "13:00",
       "14:00",
       "15:00",
       "16:00",
@@ -255,17 +255,44 @@ async function getDataHourly(latitude3,longitude3) {
       },
     ];
 
+
+
+// function getLayoutWidth() {
+//   if (window.innerWidth < 481) {
+//       return 490;
+//   } else if (window.innerWidth >= 481 && window.innerWidth <= 568) {
+//       return 305;
+//   } else if (window.innerWidth > 568 && window.innerWidth <= 1000) {
+//       return 400;
+//   } else {
+//       return 500;
+//   }
+// }
+function getLayoutWidth() {
+  if (window.innerWidth < 481) {
+      return 490;
+  } else if (window.innerWidth >= 481 && window.innerWidth <= 568) {
+      return 305;
+  } else if (window.innerWidth > 568 && window.innerWidth <= 1000) {
+      return 400;
+  } else {
+      return 400;
+  }
+}
+
+
     //define layout
     const layout = {
-      xaxis: { range: ["00:00", "24:00"],showgrid:false, title: "HOURS" },
+      xaxis: { range: ["00:00", "24:00"],showgrid:false, title: " " },
       yaxis: { visible:false,showgrid:false, title: "temp." },
     //   title: "",    showgrid:false
-      width: 650,
-      height: 200,
-    //   plot_bgcolor: 'lightgray',
-    //   paper_bgcolor: 'lightgray'
-        plot_bgcolor: 'rgba(126,129,128,0.4)',  // Set the background color of the plot area with 60% transparency
-        paper_bgcolor: 'rgba(126,129,128,0.4)'
+      // width: 360,
+      width: getLayoutWidth(),
+      height: 100,
+      // plot_bgcolor: 'lightgray',
+      // paper_bgcolor: 'lightgray',
+        plot_bgcolor: 'rgba(126,149,148,0.04)',  // Set the background color of the plot area with 60% transparency
+        paper_bgcolor: 'rgba(126,149,148,0.04)'
     };
 
     //display using plotly
@@ -291,16 +318,16 @@ let img7=document.getElementById("img7");
 let weatherIconsCode0,weatherIconsCode1,weatherIconsCode2,weatherIconsCode3,weatherIconsCode4,weatherIconsCode5,weatherIconsCode6;
 
 let weather_icon;
-const cloudy = 'weathericons/cloudy.png';
-const Clouds = 'weathericons/LotsOfCloud.png';
-const DarkClouds = 'weathericons/Fog.png';
-const LightRain = 'weathericons/heavy-rain.png';
-const HeavyRain = 'weathericons/HeavyRain2.png';
-const rainbow ='weathericons/rainbowIcon.png';
-const snow='weathericons/snow.png';
-const thunder ='weathericons/thunder.png';
-const ClearSky = 'weathericons/sun.png';
-const thunderStorm = 'weathericons/thunderstorm.png';
+const cloudy = 'weathericons/cloudy_512_x_512.png';  
+const Clouds = 'weathericons/LotsOfCloud_1080_x_1080.png';
+const DarkClouds = 'weathericons/Fog_1080_x_1080.png';
+const LightRain = 'weathericons/heavy-rain_512_x_512.png';
+const HeavyRain = 'weathericons/HeavyRain2_1080_x_1080.png';
+const rainbow ='weathericons/rainbowIcon_128_x_128.png';
+const snow='weathericons/snow_512_x_512.png';
+const thunder ='weathericons/thunder_1080_x_1080.png';
+const ClearSky = 'weathericons/sun_512_x_512.png';
+const thunderStorm = 'weathericons/thunderstorm_512_x_512.png';
 
 async function getWeatherIcons(latitude4,longitude4) {
     try {
